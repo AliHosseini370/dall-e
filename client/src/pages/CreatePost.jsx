@@ -51,7 +51,7 @@ const CreatePost = () => {
 
         await response.json();
         alert('Success');
-        navigate('/');
+        navigate('/dall-e');
       } catch (err) {
         alert(err);
       } finally {
